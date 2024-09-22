@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<scriptsrc="jquery‐1.11.1.js"> </script> <scriptsrc="jquery.maskedinput.js"> </script>
+</head>
+<body>
+<p>Utilizando jQuery (Máscara)</p>
+<form>
+
+
+
+<label for="campoDt">Data:</label> <input type="text" id="campoDt" size="6"> <br>
+<label for="campoTel">Tel.:&nbsp</label> <input type="text" id="campoTel" size="9">
+<br>
+<label for="campoCep">CEP:</label> <input type="text" id="campoCep" size="5">
+<br> <br>
+<input type="submit" value="enviar">
+</form>
+<script>
+jQuery(function($){
+$("#campoDt").mask("99/99/9999");
+$("#campoTel").mask("(99)9999-9999");
+$("#campoCep").mask("99999-999");
+</script>
+</body>
+</html>

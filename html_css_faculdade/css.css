@@ -1,0 +1,20 @@
+
+.borda_baixorelevo {border-style : inset; }
+
+ span.foto1 {
+ display: inline-block;
+ width: 1000px;
+ height: 180px;
+ background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/F1_logo.svg/2560px-F1_logo.svg.png");
+ background-repeat:no-repeat;
+ background-position: top left; }
+ .texto_negrito { font-weight : bold ; }
+ span.foto2 {
+display: inline-block;
+width: 1000px;
+height: 180px;
+background-image: url("https://www.f1mania.net/wp-content/uploads/2023/10/SI202310290587_hires_jpeg_24bit_rgb-840x400.jpg");
+background-repeat:no-repeat;
+ background-position: top right; }
+
+.borda_tracejada {border-style : dashed; }
